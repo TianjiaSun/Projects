@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="app.css">
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
-  <title>GAUSIAN Solutions</title>
+  <title>GAUSIAN Projects</title>
 </head>
 <body data-ng-controller="StoreListCtrl" data-ng-init="init()" style="overflow: hidden;">
 <div class="whole_container">
@@ -37,42 +37,22 @@
   </div>
 
   <div id="category_container">
-    <div class="logo" ng-click="allSolutions()">GAUSIAN Solutions</div>
+    <div class="logo" ng-click="allSolutions()">GAUSIAN Programs</div>
     <!-- <div class="Share_solution" ng-click="new_solution()">Create A New Solution</div> -->
     <div class="search_bar">
       <input class="search_bar_input" placeholder="Search..." ng-model="query" ng-keydown="Search($event)"></input>
       <div class="search_bar_bn" ng-click="ClickSearch()"></div>
     </div>
-    <div class="main_navigator_h1" ng-click="filterCAT('Recommended')">Recommended</div>
-    <div class="main_navigator_h1" ng-click="allSolutions()">All Solutions</div>
-      <div class="main_navigator_h2_seperate"></div>
-      <div class="main_navigator_h2" ng-click="filterCAT('E-Commerce')">E-Commerce</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Retail')">Retail</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Wholesale')">Wholesale</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Agency')">Agency</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Distributor')">Distributor</div>
-
-      <div class="main_navigator_h2_seperate"></div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Restaurant')">Restaurant & Bar</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Beauty Industry')">Beauty Industry</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Hotel')">Hotel</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Club')">Club</div>
-
-      <div class="main_navigator_h2_seperate"></div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Accounting Firm')">Accounting Firm</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Consulting Firm')">Consulting Firm</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Law Firm')">Law Firm</div>
-      
-      <div class="main_navigator_h2_seperate"></div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Software')">Software</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Electronics')">Electronics</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Manufacturing')">Manufacturing</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Transportation')">Transportation</div>
-
-      <div class="main_navigator_h2_seperate"></div>
-      <div class="main_navigator_h2" ng-click="filterCAT('University')">University</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('Laboratory')">Laboratory</div>
-      <div class="main_navigator_h2" ng-click="filterCAT('School')">School</div>
+    <div class="main_navigator_h2_seperate"></div>
+    <div class="main_navigator_h1" ng-click="filterCAT('All')">My Programs</div>
+      <div class="main_navigator_h2" ng-click="filterCAT('E-Commerce')">Completed</div>
+      <div class="main_navigator_h2" ng-click="filterCAT('Retail')">Work In Progress</div>
+    
+    <div class="main_navigator_h2_seperate"></div>
+    <div class="main_navigator_h1" ng-click="filterCAT('Server')">Server Side</div>
+    
+    <div class="main_navigator_h2_seperate"></div>
+    <div class="main_navigator_h1" ng-click="allSolutions()">Client Side</div>
   </div>
   
   <div id="list_container" hidden>

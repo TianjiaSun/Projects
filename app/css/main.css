@@ -55,13 +55,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', end
 
 .search_bar {
 position: relative;
-width: 176px;
-background: #D5D5D5;
-height: 26px;
-left: 11px;
-margin-bottom: 15px;
-border-radius: 50px;
-box-shadow: inset 0 0 4px 1px black;
+  width: 176px;
+  background: #D5D5D5;
+  height: 26px;
+  left: 11px;
+  margin-bottom: 28px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 4px 1px black;
 }
 
 
@@ -101,7 +101,7 @@ cursor: pointer;
 }
 
 .main_navigator_h1 {
-  font-size: 2vh;
+  font-size: 2.2vh;
   font-family: Arial;
   height: 3.9vh;
   width: 180px;
@@ -109,6 +109,7 @@ cursor: pointer;
   line-height: 3.9vh;
   padding-left: 0px;
   padding-bottom: 7px;
+  margin-top: 4px;
   margin-left: 16px;
   margin-right: 0px;
   color: #FFFFFF;
@@ -120,7 +121,7 @@ color: rgb(105, 204, 255);
 }
 
 .main_navigator_h2 {
-  font-size: 2vh;
+  font-size: 1.8vh;
   font-family: Arial;
   height: 3.4vh;
   width: 179px;
@@ -142,12 +143,12 @@ color: rgb(105, 204, 255);
   font-size: 1.9vh;
   font-family: Arial;
   height: 1px;
-  width: 143px;
+  width: 161px;
   position: relative;
   line-height: 3.2vh;
-  margin-top: 5px;
+  margin-top: 26px;
   margin-bottom: 5px;
-  margin-left: 27px;
+  margin-left: 16px;
   margin-right: 0px;
   border-color: #33CCFF;
   color: #33CCFF;
@@ -1300,11 +1301,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a0d6', end
 
 .vertical_container {
   position: relative;
-  top: 50%;
+  top: 0px;
   left: 0px;
   width: 100%;
   height: 47vw;
-  transform: translateY(-50%);
   background: transparent;
 }
 
